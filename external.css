@@ -1,0 +1,64 @@
+body {
+  width: 80%;
+  margin: 10vh auto;
+  padding: 10px;
+}
+
+.my-container {
+  aspect-ratio: 16 / 9;
+  background-color: rgb(33 37 41);
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.my-div {
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.top-start, .top-center, .top-end {
+  display: flex;
+  background-color: rgb(43 48 53);
+  border-radius: 0.8rem;
+  width: 31%;
+  margin-bottom: 2%;
+}
+
+.bottom-start, .bottom-center, .bottom-end{
+  display: flex;
+  background-color: rgb(43 48 53);
+  border-radius: 0.8rem;
+  width: 31%;
+  margin-top: 2%;
+}
+
+.my-text-color {
+  color: white;
+}
+
+.my-images {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  border-radius: 2rem;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  z-index: 1;
+}
+
+.dialouge {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  position: static;
+  transform: scale(0.5);
+}
